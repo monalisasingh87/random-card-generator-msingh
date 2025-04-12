@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Random card Generator</title>
 
     <!-- Fontawesome is our recomended library for icons -->
     <link
@@ -16,16 +16,16 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+
+    <div class="container-fluid">
+      <button type="button" class="btn btn-warning btn-lg">Draw New Card</button>
+      <div class="timer">
+        <span id="timer-display">10</span>
+        <!-- <button onclick="startTimer()">Start Timer</button> -->
+      </div>
+      
+      <div class=" card">
+        
       </div>
     </div>
 
